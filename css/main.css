@@ -37,12 +37,18 @@ h2 {
     bottom: 0;
     background-color: var(--color-sec);
 }
-
 .footer__brand {
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    justify-content: center;
+}
+.footer__brand--img {
     height: 9vh;
     width: 9vh;
     background-color: var(--color-ppal);
     position: absolute;
+    bottom: 11vh;
     border-radius: 50%;
     z-index: 1;
 }
@@ -60,6 +66,7 @@ h2 {
     width: 100%;
     background-color: var(--color-ppal);
     z-index: 0;
+    position: absolute;
 }
 .footer__text {
     display: flex;
@@ -69,6 +76,6 @@ h2 {
 .footer__text--p {
     font-size: 0.38rem;
     position: relative;
-    top: 6vh;
+    top: 13vh;
     color: black;
 }
